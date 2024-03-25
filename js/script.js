@@ -11,10 +11,10 @@
  * This function calculates area of a triangle.
  */
 function calculateSalary() {
+  const TAX_RATE = 0.18
   // input
   const numberOfHour = parseInt(document.getElementById('number-of-hour').value)
-  const payRate = parseInt(document.getElementById('pay-rate').value)
-  const TAX_RATE = 0.18
+  const payRate = parseFloat(document.getElementById('pay-rate').value)
 
   // process
   const payBeforeTaxes = numberOfHour * payRate
