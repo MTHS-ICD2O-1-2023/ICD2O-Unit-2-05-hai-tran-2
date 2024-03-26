@@ -22,5 +22,5 @@ function calculateSalary() {
   const payAfterTaxes= payBeforeTaxes - taxes
   // output
   document.getElementById('salary').innerHTML = "Your pay will be: $" + payAfterTaxes.toFixed(2)
-  document.getElementById('taxes').innerHTML = "Your govermnet will take will be: $" + taxes.toFixed(2)
+  document.getElementById('taxes').innerHTML = "Your government will take will be: $" + taxes.toFixed(2)
 }
